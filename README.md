@@ -8,11 +8,11 @@
    2.1 Update Files:
        For instant, you've updated README file,then: 
        On GitHub GUI Client, 
-       1.You will receive the notification in Change icon. 
-       2.Click the change icon, you will see what changed in README.
-       3.If you agree with this change, you need write some info in 'summary' field.
-       4.Click 'Commit to Master'button.(Or, use the git command: git commit -am "update sth")
-       5.Click 'Sync'button to Sync your commit change to GitHub Web.(Or, use the git command: git push)
+       1). You will receive the notification in Change icon. 
+       2). Click the change icon, you will see what changed in README.
+       3). If you agree with this change, you need write some info in 'summary' field.
+       4). Click 'Commit to Master'button.(Or, use the git command: git commit -am "update sth")
+       5). Click 'Sync'button to Sync your commit change to GitHub Web.(Or, use the git command: git push)
 
    2.2 Add new files
        e.g. added the new folder(ImageProcessingPython) including your code under your local repository.
