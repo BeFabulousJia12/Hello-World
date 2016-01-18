@@ -5,6 +5,7 @@
 # How to use GitHub Client
 1. You can clone your repository which has been created on GitHub.
 2. Manuiplate your code/script/project on your local machine, and then sync it to GitHub.
+
    2.1 Update Files:
        For instant, you've updated README file,then: 
        On GitHub GUI Client, 
