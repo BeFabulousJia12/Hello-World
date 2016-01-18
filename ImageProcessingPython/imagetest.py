@@ -136,7 +136,7 @@ def lib(imglibname):
     return d
       
 if __name__ == '__main__':    
-    imgcode = Image.open("Asmall.jpg")
+    imgcode = Image.open("A.jpg")
     imgcodesize = imgcode.size
     convert(imgcode,imgcodesize)
     imgwb = Image.open("WhiteBlack.jpg")

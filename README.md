@@ -1,7 +1,59 @@
 # Hello-World
-Just follow the guide step by step firstly
-Now, I'm going to say something to this lovely world!(In fact, this is the test for creating branch) 
+1. Click https://guides.github.com/activities/hello-world, and read this guide to create/manage your repository
+2. Download GitHub Client from https://desktop.github.com, GitHub Client is a way to contribute to projects on GitHub.
 
-Ok, I finished the talk with my former colleagues in the evening...
+# How to use GitHub Client
+1. You can clone your repository which has been created on GitHub.
+2. Manuiplate your code/script/project on your local machine, and then sync it to GitHub.
+   2.1 Update Files:
+       For instant, you've updated README file,then: 
+       On GitHub GUI Client, 
+       1).You will receive the notification in Change icon. 
+       2).Click the change icon, you will see what changed in README.
+       3).If you agree with this change, you need write some info in 'summary' field.
+       4).Click 'Commit to Master'button.(Or, use the git command: git commit -am "update sth")
+       5).Click 'Sync'button to Sync your commit change to GitHub Web.(Or, use the git command: git push)
 
-1. test the git command: git commit -a
+   2.2 Add new files
+       e.g. added the new folder(ImageProcessingPython) including your code under your local repository.
+       The same steps with 2.1, the change notification will tell you what happened.
+       Expect the git command, you need one extra command before commit:
+       git add .
+       git commit -am "add new files"
+
+   2.3 git diff command:
+       git diff HEAD
+ 
+   2.4 logs commands:
+       git log
+       git log -p
+   
+ 
+other git commands are on-going
+
+# Something about ImageProcessingPython Folder
+
+1.I'm trying to process the picutre which only has one character. The character may be in different color, but currently, the background of this pic must be white, and without any hot pixel. Such as, A.jpg, M.jpg under this folder.
+
+2.'imagetest.py'can recognize which character on the current pic.For example,in script, A.jpg is the input pic:
+
+imgcode = Image.open("A.jpg") 
+
+...
+
+Then,after comparison with Alib.jpg and Mlib.jpg pictures, the test result should tell you the correct character:
+
+print("this is A character!!")
+
+You can also change the "A.jpg" as "M.jpg" in script, to make the another test! Then the result must be:
+
+print("this is M character!!")
+
+
+3. To do list:
+   1. In fact, I should create 26 characters library.
+   2. Get picture's name dynamically instead of updating the pic name manually in imagetest.py.Or,each input picture must be converted into the same file name before being recognized!!!
+
+
+       
+       
