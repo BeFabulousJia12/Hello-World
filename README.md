@@ -2,7 +2,9 @@
 1. Click [GithubSimpleGuide](https://guides.github.com/activities/hello-world), and read this guide to create/manage your repository.
 2. Download [GitHubClient](https://desktop.github.com), GitHub Client is a way to contribute to projects on GitHub.
 
-## How to use GitHub Client
+## How to Use GitHub Client
+![image](http://www.ruanyifeng.com/blogimg/asset/2015/bg2015120901.png)
+
 1. You can clone your repository which has been created on GitHub.
 2. Manuiplate your code/script/project on your local machine, and then sync it to GitHub.
 
@@ -10,8 +12,8 @@
     For instant, you've updated README file,then:   
     On GitHub GUI Client,   
     1). You will receive the notification in Change icon.  
-    2). Click the change icon, you will see what changed in README.
-    3). If you agree with this change, you need write some info in 'summary' field.  
+    2). Click the change icon, you will see what changed in README.  
+    3). If you agree with this change, you need write some info in 'summary' field.   
     4). Click 'Commit to Master'button.  
 		Or, use the git command:   
         `git commit -am "update sth"`  
@@ -59,6 +61,8 @@
 
 ####Mix
 1. ***Markdown Editor:*** [MarkdownPad](http://www.markdownpad.com/) which is used to edit a better README file. ;)
+2. ***Reference:***
+   * Git Command list(Chinese):[Git Commands](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html) 
  
 
 
